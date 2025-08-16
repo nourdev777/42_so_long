@@ -51,6 +51,7 @@ bonus: $(OBJS_B)
 	@$(MAKEMLX)
 	@$(CCF) -o $(NAME) $(SRCS_B) $(LIBFT) $(PRINTF) $(MLX) -framework OpenGL -framework AppKit
 
+# To compile the library, use:
 # MAKE -sC ./libft/
 
 %.o : %.c so_long.h
